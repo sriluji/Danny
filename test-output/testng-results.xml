@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="4" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="20757" started-at="2022-05-18T12:20:50 EDT" finished-at="2022-05-18T12:21:11 EDT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="20757" started-at="2022-05-18T12:20:50 EDT" finished-at="2022-05-18T12:21:11 EDT">
+      <class name="com.qa.Swag.Tests.HomePageTest">
+        <test-method status="PASS" signature="SetUP()[pri:0, instance:com.qa.Swag.Tests.HomePageTest@3891771e]" name="SetUP" is-config="true" duration-ms="5622" started-at="2022-05-18T12:20:50 EDT" finished-at="2022-05-18T12:20:56 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUP -->
+        <test-method status="PASS" signature="clickAboutUsTest()[pri:0, instance:com.qa.Swag.Tests.HomePageTest@3891771e]" name="clickAboutUsTest" duration-ms="62" started-at="2022-05-18T12:20:56 EDT" finished-at="2022-05-18T12:20:56 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickAboutUsTest -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.qa.Swag.Tests.HomePageTest@3891771e]" name="TearDown" is-config="true" duration-ms="799" started-at="2022-05-18T12:20:56 EDT" finished-at="2022-05-18T12:20:57 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="SetUP()[pri:0, instance:com.qa.Swag.Tests.HomePageTest@3891771e]" name="SetUP" is-config="true" duration-ms="3900" started-at="2022-05-18T12:20:57 EDT" finished-at="2022-05-18T12:21:01 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUP -->
+        <test-method status="PASS" signature="clickmenuButtonTest()[pri:0, instance:com.qa.Swag.Tests.HomePageTest@3891771e]" name="clickmenuButtonTest" duration-ms="592" started-at="2022-05-18T12:21:01 EDT" finished-at="2022-05-18T12:21:01 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickmenuButtonTest -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.qa.Swag.Tests.HomePageTest@3891771e]" name="TearDown" is-config="true" duration-ms="714" started-at="2022-05-18T12:21:01 EDT" finished-at="2022-05-18T12:21:02 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="SetUP()[pri:0, instance:com.qa.Swag.Tests.HomePageTest@3891771e]" name="SetUP" is-config="true" duration-ms="3805" started-at="2022-05-18T12:21:02 EDT" finished-at="2022-05-18T12:21:06 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUP -->
+        <test-method status="FAIL" signature="homePageTitleTest()[pri:0, instance:com.qa.Swag.Tests.HomePageTest@3891771e]" name="homePageTitleTest" duration-ms="25" started-at="2022-05-18T12:21:06 EDT" finished-at="2022-05-18T12:21:06 EDT">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[incorrect Title expected [Single Page Apps for GitHub Pages] but found [Swag Labs]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: incorrect Title expected [Single Page Apps for GitHub Pages] but found [Swag Labs]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at com.qa.Swag.Tests.HomePageTest.homePageTitleTest(HomePageTest.java:36)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageTitleTest -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.qa.Swag.Tests.HomePageTest@3891771e]" name="TearDown" is-config="true" duration-ms="730" started-at="2022-05-18T12:21:06 EDT" finished-at="2022-05-18T12:21:07 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="SetUP()[pri:0, instance:com.qa.Swag.Tests.HomePageTest@3891771e]" name="SetUP" is-config="true" duration-ms="3671" started-at="2022-05-18T12:21:07 EDT" finished-at="2022-05-18T12:21:10 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUP -->
+        <test-method status="PASS" signature="verifyCartTest()[pri:0, instance:com.qa.Swag.Tests.HomePageTest@3891771e]" name="verifyCartTest" duration-ms="43" started-at="2022-05-18T12:21:10 EDT" finished-at="2022-05-18T12:21:10 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCartTest -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.qa.Swag.Tests.HomePageTest@3891771e]" name="TearDown" is-config="true" duration-ms="740" started-at="2022-05-18T12:21:10 EDT" finished-at="2022-05-18T12:21:11 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.qa.Swag.Tests.HomePageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
