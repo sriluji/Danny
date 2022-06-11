@@ -37,6 +37,15 @@ public class HomePageTest extends SwagTestBase {
 	}
 	
 	@Test
+	public void homeTitleTest() {
+		String hometitle=homepage.verifyHomePageTitle();
+		System.out.println(hometitle);
+		String expected =  "Single Page Apps for GitHub Pages";
+		Assert.assertEquals(hometitle,expected,"incorrect Title");
+	}
+	
+	
+	@Test
 	public void clickmenuButtonTest() throws InterruptedException {
 	homepage.clickOnmenubutton();
 	}
